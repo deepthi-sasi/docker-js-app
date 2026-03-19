@@ -65,8 +65,16 @@ Step 5: access the nodejs application from browser
 
     http://localhost:3000
 
+<img src="./images/Userprofile.png" width="150" height="300">
+
+<img src="./images/MongoCollection.png" width="150" height="300">
+
+<img src="./images/MongoDoc.png" width="150" height="300">
+
+
 #### To build a docker image from the application
 
     docker build -t my-app:1.0 .       
     
 The dot "." at the end of the command denotes location of the Dockerfile.
+
