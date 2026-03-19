@@ -65,7 +65,7 @@ Step 5: access the nodejs application from browser
 
     http://localhost:3000
 
-<img src="./images/Userprofile.png" width="1500" height="3000">
+<img src="./images/Userprofile.png" width="1000" height="2000">
 
 <img src="./images/MongoCollection.png" width="1500" height="3000">
 
