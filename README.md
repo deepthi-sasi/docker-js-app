@@ -1,4 +1,4 @@
-## demo app - developing with Docker
+## Demo app - Developing with Docker
 
 This demo app shows a simple user profile app set up using 
 - index.html with pure js and css styles
@@ -75,14 +75,18 @@ Step 5: access the nodejs application from browser
 #### To build a docker image from the application
 
     docker build -t my-app:1.0 .
+    
+The dot "." at the end of the command denotes location of the Dockerfile.
 
 #### To push the docker image to the Nexus private repository
 
-    docker login with the Nexus username and pass
+Docker login uses the Nexus username and pass, for the tag and push commands replace the IP Address with the Nexus server IP/hostname.
+
+    docker login 
     docker tag myapp:1.0 209.97.130.182:8083/myapp:1.0
     docker push 209.97.130.182:8083/myapp:1.0
 
-The dot "." at the end of the command denotes location of the Dockerfile.
+To run the application, you need to use docker login on a Deployment server and then run:
 
-
+    docker compose -f docker-compose.yaml up
 
