@@ -74,7 +74,15 @@ Step 5: access the nodejs application from browser
 
 #### To build a docker image from the application
 
-    docker build -t my-app:1.0 .       
-    
+    docker build -t my-app:1.0 .
+
+#### To push the docker image to the Nexus private repository
+
+    docker login with the Nexus username and pass
+    docker tag myapp:1.0 209.97.130.182:8083/myapp:1.0
+    docker push 209.97.130.182:8083/myapp:1.0
+
 The dot "." at the end of the command denotes location of the Dockerfile.
+
+
 
