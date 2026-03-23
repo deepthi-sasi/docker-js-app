@@ -80,6 +80,8 @@ The dot "." at the end of the command denotes location of the Dockerfile.
 
 #### To push the docker image to the Nexus private repository
 
+To setup a Nexus repository see [documentation here](https://github.com/deepthi-sasi/Artifact-Repository-Manager-with-Nexus). 
+
 Docker login uses the Nexus username and pass, for the tag and push commands replace the IP Address with the Nexus server IP/hostname.
 
     docker login 
