@@ -8,6 +8,7 @@
 
 ---
 
+
 ## Overview
 
 This app demonstrates how to develop and run a multi-component application entirely with Docker. It consists of a static frontend, a Node.js backend, and a MongoDB database — each running as a container.
